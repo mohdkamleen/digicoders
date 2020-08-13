@@ -57,7 +57,7 @@
 
     <!-- nav section  -->
 
-    
+    <div id="fluid">
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
     <!-- Brand -->
     <a class="navbar-brand" href="#">Html</a>
@@ -79,7 +79,7 @@
       </ul>
   </nav>
 
-   <div class="container-fluid" id="fluid">
+   <div class="container-fluid" >
       <br> <h1>1. Design a calculator like this.</h1>  
 
       <div class="form-group">
@@ -102,6 +102,7 @@
       <object data="source/t8.2.html" style=" height: 700px; width: 100%;"></object> <br> <br> <br> 
    </div>
 
+</div>
    <script>
     function result(){
       document.getElementById('result_show').style.transform = 'scale(1)';
@@ -121,14 +122,16 @@
       document.getElementById('fluid').style.filter = 'blur(0px)'
     }
 </script>
-</body>
 
 <div  id="result_show">
     <h2 class="text-center text-dark p-2">Results</h2>
-    <h4 class="text-secondary ">Addition = 58</h4>
-    <h4 class="text-secondary ">Subtraction = 58</h4>
-    <h4 class="text-secondary ">Multiplication = 58</h4>
-    <h4 class="text-secondary ">Division = 58</h4>
-    <button class="btn btn-secondary" onclick="hide()">cancel</button>
+    <h4 id="add" class="text-secondary ">Addition = 58</h4>
+    <h4 id="sub" class="text-secondary ">Subtraction = 58</h4>
+    <h4 id="mul" class="text-secondary ">Multiplication = 58</h4>
+    <h4 id="div" class="text-secondary ">Division = 58</h4>
+    <button class="btn btn-outline-secondary" onclick="hide()">cancel</button>
 </div>
+
+
+</body>
 </html>
