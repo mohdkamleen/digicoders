@@ -20,6 +20,10 @@
             
             }
 
+            .form-group{
+                border: 2px solid gray; 
+                padding: 20px;
+            }
 
         p{
             font-size: 20px;
@@ -63,8 +67,34 @@
 
    <div class="container-fluid">
       <br> <h1>1. Design a calculator like this.</h1>  
-      <br> <h1>2. Design a calculator like this.</h1>  
-      <object data="source/t8.2.html" style=" height: 600px; width: 100%;"></object> 
+
+      <div class="form-group">
+          <h3 class="text-center">calculator</h3> <br>
+          <input placeholder="Enter first number" class="form-control"> <br>
+          <input placeholder="Enter second number" class="form-control"> <br>
+          <input type="button" onclick="return result()" value="Result" class="btn btn-outline-secondary d-block m-auto"> <br>
+      </div>
+
+
+      <script>
+          function result(){
+            num1 = document.getElementsByClassName('form-control')[0].value;
+            num2 = document.getElementsByClassName('form-control')[1].value;
+            num1 = parseInt(num1);
+            num2 = parseInt(num2);
+            add = num1 + num2;
+            sub = num1 - num2;
+            mul = num1 * num2;
+            div = num1 / num2;  
+          }
+      </script>
+
+
+
+
+      <br> <br>
+       <h1>2. Design a calculator like this pattern.</h1>  
+      <object data="source/t8.2.html" style=" height: 700px; width: 100%;"></object> <br> <br> <br> 
    </div>
     
 </body>
