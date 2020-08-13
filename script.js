@@ -237,6 +237,18 @@ searchBar.addEventListener("keyup", function(e){
     link.setAttribute("href", "t5.html");
     break;
 
+    case 't6':
+    link.setAttribute("href", "t6.html");
+    break;
+
+    case 't7':
+    link.setAttribute("href", "t7.html");
+    break;
+
+    case 't5':
+    link.setAttribute("href", "t5.html");
+    break;
+
     case 'assignment':
     link.setAttribute("href", "project.html#c");
     break;
@@ -327,19 +339,7 @@ searchBar.addEventListener("keyup", function(e){
 
     case 'digicoders':
     link.setAttribute("href", "http://digicoders.in/");
-    break;
-
-    case 'dc':
-    link.setAttribute("href", "http://digicoders.in/");
-    break;
-
-    case 'digi':
-    link.setAttribute("href", "http://digicoders.in/");
-    break;
-
-    case 'dcoders':
-    link.setAttribute("href", "http://digicoders.in/");
-    break;
+    break;  
 
     default:
     swal("Opps !!!", "Sorry Page not Found", "error");

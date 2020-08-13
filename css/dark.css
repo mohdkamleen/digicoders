@@ -1,4 +1,4 @@
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) { */
 
   
     body{
@@ -37,10 +37,10 @@
     } 
      
     ::selection {
-        color:rgb(236, 75, 46); 
-        text-shadow:1px 1px 5px  rgb(167, 168, 245),
-                    1px 1px 7px  rgb(124, 126, 224),
-                    1px 1px 10px rgb(114, 116, 231);
+        color:rgb(104, 130, 248); 
+        text-shadow:1px 1px 5px  rgb(126, 128, 241),
+                    1px 1px 7px  rgb(111, 113, 238),
+                    1px 1px 10px rgb(95, 97, 243);
         
         }
 
