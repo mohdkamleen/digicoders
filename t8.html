@@ -112,7 +112,8 @@
       var sub = num1 - num2;
       var mul = num1 * num2;
       var div = num1 / num2;  
-      document.getElementById('main_result').innerHTML = "Addition = " + add + '<br>' + "Subtraction = " + sub + '<br>' + "Multiplication = " + mul + '<br>' + "Division = " + div;
+      var mod = num1 % num2;  
+      document.getElementById('main_result').innerHTML = "Addition = " + add + '<br>' + "Subtraction = " + sub + '<br>' + "Multiplication = " + mul + '<br>' + "Division = " + div + '<br>' + "modulo = " + mod;
     }
 
     function hide(){
