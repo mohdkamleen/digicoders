@@ -353,16 +353,16 @@ searchBar.addEventListener("keyup", function(e){
 
 //////////// its service worker part ////////////
 
-if('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('./sw.js')
-  .then(res => {
-    console.info('Service Worker is Regitser', res);
-  })
-  .catch(err => {
-    console.info('Service Worker is not Register', err);
-  })
-} else 
-  console.log('Service Worker is not suppoted in your browser');
+// if('serviceWorker' in navigator) {
+//   navigator.serviceWorker.register('./sw.js')
+//   .then(res => {
+//     console.info('Service Worker is Regitser', res);
+//   })
+//   .catch(err => {
+//     console.info('Service Worker is not Register', err);
+//   })
+// } else 
+//   console.log('Service Worker is not suppoted in your browser');
 
 
 
