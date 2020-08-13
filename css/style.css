@@ -303,7 +303,7 @@ strong {
     transform: translate(-50% ,-50%);
     color: #222222;     
     font-family: 'Short Stack'; 
-    box-shadow: 1px 1px 5px 1px rgb(167, 168, 245),
+    box-shadow: 1px 1px 5px 1px rgb(149, 151, 241),
                 1px 1px 7px 2px rgb(124, 126, 224),
                 1px 1px 10px 3px rgb(119, 121, 230)
     }
