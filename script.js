@@ -97,11 +97,9 @@ var fconfig = {
 
 firebase.initializeApp(fconfig);
 
-var comment = document.getElementById("comment").value;
+var comment = document.getElementById("comment").value; 
 
-firebase.database().ref('comments').child(comment).set({comment: comment });
-
-document.getElementById("comment").innerText = "";
+firebase.database().ref('comments').child(comment).set({comment: comment }); 
 
 }
 
@@ -112,8 +110,7 @@ document.getElementById("comment").innerText = "";
 
 var windowPosition = window.pageYOffset;
 window.onscroll =  function(){
-   var windo = window.pageYOffset;
-   // var nav = document.getElementById("nav");
+   var windo = window.pageYOffset; 
 
   if(windowPosition > windo){
    document.getElementById("nav").style.top = "0%"; 
