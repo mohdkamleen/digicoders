@@ -245,8 +245,8 @@ searchBar.addEventListener("keyup", function(e){
     link.setAttribute("href", "t7.html");
     break;
 
-    case 't5':
-    link.setAttribute("href", "t5.html");
+    case 't8':
+    link.setAttribute("href", "t8.html");
     break;
 
     case 'assignment':
