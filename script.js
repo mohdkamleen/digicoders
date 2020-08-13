@@ -305,7 +305,7 @@ searchBar.addEventListener("keyup", function(e){
     break;
 
     case 'pic':
-    link.setAttribute("href", "css/kamleen.jpg");
+    link.setAttribute("href", "other.html#gallary");
     break;
 
     case 'sw.js':
