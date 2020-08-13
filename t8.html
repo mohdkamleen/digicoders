@@ -114,6 +114,7 @@
       sub = num1 - num2;
       mul = num1 * num2;
       div = num1 / num2;  
+      document.getElementById('main_result').innerHTML = "Addition = " + add + '<br>' + "Subtraction = " + sub + '<br>' + "Multiplication = " + mul + '<br>' + "Division = " + div;
     }
 
     function hide(){
@@ -124,10 +125,7 @@
 
 <div  id="result_show">
     <h2 class="text-center text-dark p-2">Results</h2>
-    <h4 id="add" class="text-secondary ">Addition = 58</h4>
-    <h4 id="sub" class="text-secondary ">Subtraction = 58</h4>
-    <h4 id="mul" class="text-secondary ">Multiplication = 58</h4>
-    <h4 id="div" class="text-secondary ">Division = 58</h4>
+    <h4 id="main_result" class="text-secondary "></h4> 
     <button class="btn btn-outline-secondary" onclick="hide()">cancel</button>
 </div>
 
