@@ -112,9 +112,9 @@
       var sub = num1 - num2;
       var mul = num1 * num2;
       var div = num1 / num2;  
-      var mod = num1 % num2;  
+      var mod = num1 % num2;   
       document.getElementById('main_result').innerHTML = "Addition = " + add + '<br>' + "Subtraction = " + sub + '<br>' + "Multiplication = " + mul + '<br>' + "Division = " + div + '<br>' + "modulo = " + mod;
-    }
+    } 
 
     function hide(){
       document.getElementById('result_show').style.transform = 'scale(0)';
@@ -122,30 +122,26 @@
     }
 
     function check_num1(){
-      var n1 = document.getElementsByClassName('form-control')[0];
-      var n2 = document.getElementsByClassName('form-control')[1]; 
+      var n1 = document.getElementsByClassName('form-control')[0]; 
       var number_check = /^[0-9]{1,5}$/;
       if(number_check.test(n1.value)){
         document.getElementById('result_button').disabled = false;
-          n1.style.color = 'gray';
-          n1.style.borderColor = 'gray';
+        n1.style.color = 'gray';
+        n1.style.borderColor = 'gray';
       } else {
         document.getElementById('result_button').disabled = true;
         n1.style.color = 'red';
         n1.style.borderColor = 'red';
-      }
+      } 
+    } 
 
-    }
- 
-
-    function check_num2(){
-      var n1 = document.getElementsByClassName('form-control')[0];
+    function check_num2(){ 
       var n2 = document.getElementsByClassName('form-control')[1]; 
       var number2_check = /^[0-9]{1,4}$/;
       if(number2_check.test(n2.value)){
         document.getElementById('result_button').disabled = false;
-          n2.style.color = 'gray';
-          n2.style.borderColor = 'gray';
+        n2.style.color = 'gray';
+        n2.style.borderColor = 'gray';
       } else {
         document.getElementById('result_button').disabled = true;
         n2.style.color = 'red';
