@@ -37,6 +37,20 @@
             font-weight: lighter;
         }
 
+        #result_show{
+            position: fixed;
+            top: 30%;
+            left: 30%;
+            transform: translate(-50%, -50%);
+            background: transparent;
+            border: 2px solid gray;  
+            padding: 20px 50px;
+            border-radius: 5px;
+            transition: all .3s ease-in;
+            transform: scale(0);
+            z-index: 999;
+        }
+
     </style>
 </head>
 <body>
@@ -65,29 +79,20 @@
       </ul>
   </nav>
 
-   <div class="container-fluid">
+   <div class="container-fluid" id="fluid">
       <br> <h1>1. Design a calculator like this.</h1>  
 
       <div class="form-group">
           <h3 class="text-center">calculator</h3> <br>
           <input placeholder="Enter first number" class="form-control"> <br>
           <input placeholder="Enter second number" class="form-control"> <br>
-          <input type="button" onclick="return result()" value="Result" class="btn btn-outline-secondary d-block m-auto"> <br>
+          <input type="button" onclick="result()" value="Result" class="btn btn-outline-secondary d-block m-auto"> <br>
       </div>
 
+     
 
-      <script>
-          function result(){
-            num1 = document.getElementsByClassName('form-control')[0].value;
-            num2 = document.getElementsByClassName('form-control')[1].value;
-            num1 = parseInt(num1);
-            num2 = parseInt(num2);
-            add = num1 + num2;
-            sub = num1 - num2;
-            mul = num1 * num2;
-            div = num1 / num2;  
-          }
-      </script>
+
+     
 
 
 
@@ -96,6 +101,34 @@
        <h1>2. Design a calculator like this pattern.</h1>  
       <object data="source/t8.2.html" style=" height: 700px; width: 100%;"></object> <br> <br> <br> 
    </div>
-    
+
+   <script>
+    function result(){
+      document.getElementById('result_show').style.transform = 'scale(1)';
+      document.getElementById('fluid').style.filter = 'blur(3px)'
+      num1 = document.getElementsByClassName('form-control')[0].value;
+      num2 = document.getElementsByClassName('form-control')[1].value;
+      num1 = parseInt(num1);
+      num2 = parseInt(num2);
+      add = num1 + num2;
+      sub = num1 - num2;
+      mul = num1 * num2;
+      div = num1 / num2;  
+    }
+
+    function hide(){
+      document.getElementById('result_show').style.transform = 'scale(0)';
+      document.getElementById('fluid').style.filter = 'blur(0px)'
+    }
+</script>
 </body>
+
+<div  id="result_show">
+    <h2 class="text-center text-dark p-2">Results</h2>
+    <h4 class="text-secondary ">Addition = 58</h4>
+    <h4 class="text-secondary ">Subtraction = 58</h4>
+    <h4 class="text-secondary ">Multiplication = 58</h4>
+    <h4 class="text-secondary ">Division = 58</h4>
+    <button class="btn btn-secondary" onclick="hide()">cancel</button>
+</div>
 </html>
