@@ -23,6 +23,7 @@ body{
     justify-content: space-between;
     align-items: center;
     transition: all .3s linear;
+    border: 1px solid rgb(201, 192, 192);
     }
 
 .menu{
@@ -194,6 +195,7 @@ span{
     justify-content: space-around;
     align-items: center; 
     padding: 15px;
+    border-top: 1px solid rgb(182, 182, 182); 
     }
 
 .footer_title{ 
@@ -327,6 +329,7 @@ strong {
 
     100%{
         width: 70%;
+        background: rgb(156, 194, 243);
     }
    }
 
