@@ -1,219 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>  
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <link rel="stylesheet" href="../css/bootstraph.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <style>
-        i{
-            border-top-right-radius: 5px;
-            border-bottom-right-radius: 5px;
+
+        ::selection {
+            color:rgb(81, 83, 236); 
+            text-shadow:1px 1px 5px  rgb(167, 168, 245),
+                        1px 1px 7px  rgb(124, 126, 224),
+                        1px 1px 10px rgb(114, 116, 231);
+            
+            }
+
+
+        p{
+            font-size: 20px;
+            color: green;
+            padding: 10px;
         }
+        
+        h1{
+            color: #555555;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: lighter;
+            margin: 5px;
+        }
+        
     </style>
 </head>
 <body>
-     <!-- first section  -->
 
-     <ul class="nav bg-primary d-flex justify-content-around align-items-center ">
-         <div class="d-flex justify-content-center align-items-center"> 
-          <a class="nav-link text-light" href="#">Home</a>  
-          <a class="nav-link text-light" href="#">Dilavery</a>  
-          <a class="nav-link text-light" href="#">Payment</a> 
-         </div>
+    <!-- nav section  -->
 
- 
-        <div class="d-flex justify-content-center align-items-center">
-        <li class="nav-item ">
-            <a class="nav-link text-light " href="#">Call +99812345788 </a>
+    
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <!-- Brand -->
+    <a class="navbar-brand" href="#">Html</a>
+  
+    <!-- Links -->
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active disabled"> <b> Task 7.</b> </a>
         </li>
-        <li class="nav-item dropdown "> 
-                <a class="nav-link dropdown-toggle  text-light" data-toggle="dropdown" href="#">English</a>
-                <div class="dropdown-menu bg-primary">
-                  <a class="dropdown-item  text-light" href="#">Hindi</a>
-                  <a class="dropdown-item  text-light" href="#">Urdu</a>
-                  <a class="dropdown-item  text-light" href="#">Arbi</a>
-                </div>
-        </li> 
-        </div>
-      </ul>
 
+        <li class="nav-item">
+            <a class="nav-link" href="../index.html"> Home  </a>
+        </li>
 
-
-
-
-
-
-      <!-- second section  -->
-
-      <div class="px-5 pt-2">
-
-      <ul class="nav bg-white d-flex justify-content-around align-items-center ">
-        <div class="d-flex justify-content-center align-items-center"> 
-            <i class="fa fa-2x fa-html5 text-primary"></i> <a class="nav-link text-primary font-weight-bold " href="#">Bootstrap <br> Ecommerce</a>  
-         </div>
- 
-       <div class=" "> 
-          <div><input class="text-primary" placeholder="Serach" href="#" type="search "><i class="p-2 bg-primary text-white fa fa-search"></i>  </div>
-       </div>
-
-       <div class="d-flex justify-content-center text-secondary align-items-center">   
-        <i style="border: 1px gray solid; border-radius:50px; margin:5px;" class="fa fa-2x fa-shopping-cart p-2"></i> 
-        <i style="border: 1px gray solid; border-radius:50px; margin:5px;" class="fa fa-2x fa-user p-2 "></i> 
-        <a class="nav-link text-secondary" href="#"> Welcom <br> <b>Sign in</b> | Register</a>   
-      </div>
-     </ul>
-
-
-
-
-
-
-
-
-
-
-     <!-- thirerd section  -->
-     <ul class="nav bg-white"> 
-          <a class=" text-secondary font-weight-bold m-2 fa fa-bars" href="#"></a>  
-          <a class=" text-secondary font-weight-bold m-2" href="#">All category</a> 
-          <a class=" text-secondary font-weight-bold m-2" href="#">Fashion</a> 
-          <a class=" text-secondary font-weight-bold m-2" href="#">Supermarket</a> 
-          <a class=" text-secondary font-weight-bold m-2" href="#">Electronics</a> 
-          <a class=" text-secondary font-weight-bold m-2" href="#">Baby & Toys</a> 
-          <a class=" text-secondary font-weight-bold m-2" href="#">Fitness sport</a> 
-          <a class=" text-secondary font-weight-bold m-2" href="#">clothing</a> 
-          <a class=" text-secondary font-weight-bold m-2" href="#">Funitures</a> 
-      </ul>
-    </div>
-    <hr>
-    <div class="px-5 pt-2">
-
-
-
-
-
-
-        <!-- fourth section  -->
-      <div class="d-flex justify-content-center flex-column text-white align-items-center" style=" height: 200px; width: 100%; background: linear-gradient(-45deg, rgb(224, 108, 108),rgb(135, 150, 233),rgb(130, 149, 233),rgb(106, 188, 243),rgb(130, 162, 231)) ">
-       <h1>Great Banner</h1> <p style="font-size: 20px;">Hey! I am demo banner just for a design </p>
-      </div> <br>
-
- 
-      <!-- fiveth section  -->
-       <div class="container">
-
-      <div class="d-flex justify-content-between align-items-center" style="max-width: 900px; width: 100%; border: 1px solid rgb(187, 187, 187);">
-        <div class="p-2">
-            <a href="#" class="fa fa-2x fa-truck p-2"></a>
-            <h5>Fast Delivery</h5>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicio illum voluptates deserunt eum maxime.</p>
-        </div>
+        <li class="nav-item">
+          <a class="nav-link fa fa-angle-double-down float-left" download="task 7" href="../t7.html"> Download </a>
+        </li>
         
-        <div class="p-2">
-            <a href="#" class="fa fa-2x fa-university p-2"></a>
-            <h5>Creative Stretegy</h5>
-            <p>Lorem ipsum dolor,  Tempore quo illum voluptates deserunt eum maxime.</p>
-        </div>
-
-        <div class="p-2">
-            <a href="#" class="fa fa-2x fa-lock p-2"></a>
-            <h5>High Secured</h5>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Toluptates eum maxime.</p>
-        </div>
-
-       </div> <br> 
-
-       <!-- six section  -->
-
-       <h4>Popular products</h4>
-       <div class="d-flex justify-content-around align-items-center m-2" style=" width: 100%; max-width: 900px;">
-        <div class="m-2 p-2" style=" border: 1px solid rgb(187, 187, 187);">
-            <img src="https://source.unsplash.com/150x160/?jeans,product" alt=""><br>just another product name <br>
-            <a class="fa text-warning fa-star "></a><a class="fa text-warning fa-star "></a><a class="fa text-warning fa-star "></a><a class="fa text-warning fa-star "></a>
-            <h6>$179.00</h6>
-        </div>
-        <div class="p-2 m-2" style=" border: 1px solid rgb(187, 187, 187);">
-            <img src="https://source.unsplash.com/150x160/?product,t-shert" alt=""><br>Some item name here <br>
-            <a class="fa text-warning fa-star "></a><a class="fa text-warning fa-star "></a><a class="fa text-warning fa-star "></a><a class="fa text-warning fa-star "></a>
-            <h6>$280.00</h6>
-        </div>
-        <div class="p-2 m-2" style=" border: 1px solid rgb(187, 187, 187);">
-            <img src="https://source.unsplash.com/150x160/?jeans,shoose" alt=""><br>Great product name here  <br>
-            <a class="fa text-warning fa-star "></a><a class="fa text-warning fa-star "></a><a class="fa text-warning fa-star "></a><a class="fa text-warning fa-star "></a>
-            <h6>$56.00</h6>
-        </div>
-        <div class="p-2 m-2" style=" border: 1px solid rgb(187, 187, 187);">
-            <img src="https://source.unsplash.com/150x160/?jeans,bag" alt=""><br>just another product name <br>
-            <a class="fa text-warning fa-star "></a><a class="fa text-warning fa-star "></a><a class="fa text-warning fa-star "></a><a class="fa text-warning fa-star "></a>
-            <h6>$179.00</h6>
-        </div> 
-       </div>
-
-       <!-- seventh section  -->
-       <h4>New Aarived</h4>
-       <div class="d-flex justify-content-around align-items-center m-2" style=" width: 100%; max-width: 900px;" >
-        <div class="m-2 p-2" style=" border: 1px solid rgb(187, 187, 187);">
-            <img src="https://source.unsplash.com/150x160/?laptop,product" alt=""><br>just another product name <br>
-            <a class="fa text-warning fa-star "></a><a class="fa text-warning fa-star "></a><a class="fa text-warning fa-star "></a><a class="fa text-warning fa-star "></a>
-            <h6>$179.00</h6>
-        </div>
-        <div class="p-2 m-2" style=" border: 1px solid rgb(187, 187, 187);">
-            <img src="https://source.unsplash.com/150x160/?furnitures,sofa" alt=""><br>Some item name here <br>
-            <a class="fa text-warning fa-star "></a><a class="fa text-warning fa-star "></a><a class="fa text-warning fa-star "></a><a class="fa text-warning fa-star "></a>
-            <h6>$280.00</h6>
-        </div>
-        <div class="p-2 m-2" style=" border: 1px solid rgb(187, 187, 187);">
-            <img src="https://source.unsplash.com/150x160/?watch,shoose" alt=""><br>Great product name here  <br>
-            <a class="fa text-warning fa-star "></a><a class="fa text-warning fa-star "></a><a class="fa text-warning fa-star "></a><a class="fa text-warning fa-star "></a>
-            <h6>$56.00</h6>
-        </div>
-        <div class="p-2 m-2" style=" border: 1px solid rgb(187, 187, 187);">
-            <img src="https://source.unsplash.com/150x160/?headphone,mobile" alt=""><br>just another product name <br>
-            <a class="fa text-warning fa-star "></a><a class="fa text-warning fa-star "></a><a class="fa text-warning fa-star "></a><a class="fa text-warning fa-star "></a>
-            <h6>$179.00</h6>
-        </div> 
-       </div>
-
-       <!-- eit sections  -->
-       <h4>Recommended</h4>
-       <div class="d-flex justify-content-around align-items-center m-2" style=" width: 100%; max-width: 900px;">
-        <div class="m-2 p-2" style=" border: 1px solid rgb(187, 187, 187);">
-            <img src="https://source.unsplash.com/150x160/?jeans,water" alt=""><br>just another product name <br>
-            <a class="fa text-warning fa-star "></a><a class="fa text-warning fa-star "></a><a class="fa text-warning fa-star "></a><a class="fa text-warning fa-star "></a>
-            <h6>$179.00</h6>
-        </div>
-        <div class="p-2 m-2" style=" border: 1px solid rgb(187, 187, 187);">
-            <img src="https://source.unsplash.com/150x160/?product,car" alt=""><br>Some item name here <br>
-            <a class="fa text-warning fa-star "></a><a class="fa text-warning fa-star "></a><a class="fa text-warning fa-star "></a><a class="fa text-warning fa-star "></a>
-            <h6>$280.00</h6>
-        </div>
-        <div class="p-2 m-2" style=" border: 1px solid rgb(187, 187, 187);">
-            <img src="https://source.unsplash.com/150x160/?chair,shoose" alt=""><br>Great product name here  <br>
-            <a class="fa text-warning fa-star "></a><a class="fa text-warning fa-star "></a><a class="fa text-warning fa-star "></a><a class="fa text-warning fa-star "></a>
-            <h6>$56.00</h6>
-        </div>
-        <div class="p-2 m-2" style=" border: 1px solid rgb(187, 187, 187);">
-            <img src="https://source.unsplash.com/150x160/?pensil,pen" alt=""><br>just another product name <br>
-            <a class="fa text-warning fa-star "></a><a class="fa text-warning fa-star "></a><a class="fa text-warning fa-star "></a><a class="fa text-warning fa-star "></a>
-            <h6>$179.00</h6>
-        </div> 
-       </div>
-   </div>
-
-
-
-
-
-
-
-
-
-
-
-
-  </div>
-
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      </ul>
+  </nav>
+ <h1>1. Creat a web page from bootstrap like this.</h1>
+    
 </body>
 </html>
+
+
