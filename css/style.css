@@ -313,7 +313,7 @@ strong {
     width: 0%;
     height: 40px;
     position: absolute;
-    background: #7b8fd1;
+    background:radial-gradient(rgb(143, 172, 218), rgb(119, 138, 221));
     top: 50%;
     left: 50%;
     z-index: -2;
@@ -324,12 +324,11 @@ strong {
 
 @keyframes loder_animate{
     0%{
-        width: 0%;
+        width: 0%; 
     }
 
     100%{
         width: 70%;
-        background: rgb(156, 194, 243);
     }
    }
 
