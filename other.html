@@ -36,15 +36,14 @@
     <!-- title image favicon  -->
     <link rel="shortcut icon" href="https://1.bp.blogspot.com/-Dnoi0Esiwxw/XoIMQkg2AHI/AAAAAAAABHk/mIkvhFn1AZw01AiNQLJHoHiF3sg_YVhjgCEwYBhgLKs4DAMBZVoCS2MoPveGbwJhiGkcXEwhA22Iujn9BlEuPeGigspT-RDv68cm1Ax-TOOZ8sc-Yg9ny6smaSnNCEAleFk9jGoXKqZy2sotiXV-bO_fhVk6TFB0zYmgD1mCZNUPs7tNd05YmVV8RmOSRN04Zgrdtjus5I7od2DQE0BdLJiSS9X8OVoEWYoQniDINMgjqN9QxWJsqbp9bfeRWsW3OvKBvZVn2R6_ObzcqE12hQD-PnvP80kFDiWHWiXvPZ0QLTr0Z21YXCVAUvFSdpFd8FSZ1oZZuMIEZ_KsMMnnhgPYuvqz5hsJookRu5U81gnDhSsNFUyey0XsoxtMi5BribKMul9eIfn8o8q8W17JLqABmTR6tBmw3yOgkBX2tkYUKyBVjK-piySbGLFw4H_teJQ0WXxEGqoYoVv012Dn-I7KsEXpVZsnDP75Ivr8aUNhXI4ajLP1BGW-q8qX2YzrjIzFaStmLosEdjOOo8l87XnLLy65Ui2USt7eybetxiZIGjSQm9OKqJDAKib1v3u2zdoHzDtgHxPeh9Y1AOhOQXHEEASCq1d_pDtLabJZwQcPr2iiQU0V9LhoD2yGaajpFBJ9QC9sQ10gf3mpAfod9MMWfiPQF/s1600/IMG_20200205_142740.jpg" type="image/x-icon" >
 
-      <!-- icons animate style sheet  -->
-      <link rel="stylesheet" href="https://mohdkamleen.github.io/link/animate.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- icons style sheet  --> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
      
     <style>
 
       img{
-            height: 30vh; 
-            border: 2px solid rgb(67, 69, 235); 
+            height: 30vh;
+            border: 2px solid rgb(67, 69, 235);
             box-shadow: 1px 1px 5px 1px rgb(167, 168, 245),
                         1px 1px 7px 2px rgb(124, 126, 224) ;
             transition: .2s all linear; 
@@ -56,14 +55,24 @@
             border: 1px solid rgb(67, 69, 235);
             filter: brightness(.7);
             box-shadow: none;
-        }
-
+        } 
+      
+      body{
+          animation: animate 1s ease-in-out;
+          }
+  
+      @keyframes animate{
+          0%{
+              transform: translateY(100%);
+          }
+      } 
+   
     </style>
 </head>
-<body onload="splash_function()"  class="animate__animated animate__fadeInUp">
+<body onload="splash_function()">
 
     <!-- up to top button  -->
-  <a id="scroll_button" href="#top_page" class="fa fa-arrow-up"></a>
+  <a id="scroll_button" href="#" class="fa fa-arrow-up"></a>
 
   <!-- costom scrollbar  -->
   <div id="scrollbar" ></div>
@@ -77,11 +86,11 @@
   <!-- main title of pages  -->
  <a href="http://digicoders.in/" target="_blank" rel="noopener noreferrer"> <h2 class="firstText" id="top_page">digicoders summer training </h2> </a>
   
-  <!-- nav bar sectio  -->
+  <!-- nav bar section  -->
  <nav class="nav_container" id="nav">
 
       <!-- logo  -->
-        <h1 class="animate__pulse animate__animated animate__infinite"><a href="https://mohdkamleen.blogspot.com/" class="logo " target="_blank" rel="noopener noreferrer" title="Mohd Kamleen">kamleen</a></h1>
+        <h1><a href="https://mohdkamleen.blogspot.com/" class="logo " target="_blank" rel="noopener noreferrer" title="Mohd Kamleen">kamleen</a></h1>
         
         <!-- menu  -->
         <ul class="menu">
