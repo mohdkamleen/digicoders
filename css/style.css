@@ -9,15 +9,8 @@
 
 body{
     height: 100%;
-    overflow-x: hidden;      
-    animation: animate 1s ease-in-out;  
-    }
-
-@keyframes animate{
-    0%{
-        transform: translateX(-100%);
-    }
-}
+    overflow-x: hidden;       
+    } 
 
 
     /* nav manually css  */
