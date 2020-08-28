@@ -175,12 +175,28 @@ span{
     border: 2px solid rgb(67, 69, 235);
     }
 
+    
 .mypic:hover{
-    transform: scale(.9);
     border: 1px solid rgb(67, 69, 235);
-    filter: brightness(.7);
     box-shadow: none;
+    animation: pic 1s alternate linear infinite;
     }
+
+@keyframes pic{
+    0%{
+
+        transform: scale(1);
+        filter: hue-rotate(0deg);
+    }
+    50%{ 
+        filter: hue-rotate(60deg); 
+    }
+    100%{
+
+        transform: scale(.9);
+        filter: hue-rotate(0deg); 
+    }
+}
 
 
         /*////////////footer/////////*/
@@ -329,6 +345,7 @@ strong {
 
     100%{
         width: 70%;
+        color: #ffffff;
     }
    }
 

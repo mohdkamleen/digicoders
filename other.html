@@ -23,21 +23,23 @@
     <link rel='shortlink' href='https://mohdkamleen.github.io/digicoders/' />
     <link rel="apple-touch-icon" href="https://digicoders.in/images/Logo/DigiCoders%20Technologies%20Logo%20Transparent.png">
     <title>Mohd Kamleen | Other </title>
-    
     <!-- manually style sheet  -->
     <link rel="stylesheet" href="css/style.css">
-
     <!-- dark mode access style sheet  -->
     <link rel="stylesheet" href="css/dark.css">
-
     <!-- google fonts  -->
     <link href="https://fonts.googleapis.com/css?family=Short+Stack&display=swap" rel="stylesheet" >
-
     <!-- title image favicon  -->
     <link rel="shortcut icon" href="https://1.bp.blogspot.com/-Dnoi0Esiwxw/XoIMQkg2AHI/AAAAAAAABHk/mIkvhFn1AZw01AiNQLJHoHiF3sg_YVhjgCEwYBhgLKs4DAMBZVoCS2MoPveGbwJhiGkcXEwhA22Iujn9BlEuPeGigspT-RDv68cm1Ax-TOOZ8sc-Yg9ny6smaSnNCEAleFk9jGoXKqZy2sotiXV-bO_fhVk6TFB0zYmgD1mCZNUPs7tNd05YmVV8RmOSRN04Zgrdtjus5I7od2DQE0BdLJiSS9X8OVoEWYoQniDINMgjqN9QxWJsqbp9bfeRWsW3OvKBvZVn2R6_ObzcqE12hQD-PnvP80kFDiWHWiXvPZ0QLTr0Z21YXCVAUvFSdpFd8FSZ1oZZuMIEZ_KsMMnnhgPYuvqz5hsJookRu5U81gnDhSsNFUyey0XsoxtMi5BribKMul9eIfn8o8q8W17JLqABmTR6tBmw3yOgkBX2tkYUKyBVjK-piySbGLFw4H_teJQ0WXxEGqoYoVv012Dn-I7KsEXpVZsnDP75Ivr8aUNhXI4ajLP1BGW-q8qX2YzrjIzFaStmLosEdjOOo8l87XnLLy65Ui2USt7eybetxiZIGjSQm9OKqJDAKib1v3u2zdoHzDtgHxPeh9Y1AOhOQXHEEASCq1d_pDtLabJZwQcPr2iiQU0V9LhoD2yGaajpFBJ9QC9sQ10gf3mpAfod9MMWfiPQF/s1600/IMG_20200205_142740.jpg" type="image/x-icon" >
-
     <!-- icons style sheet  --> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+  
+      gtag('config', 'UA-132361392-1');
+    </script>
      
     <style>
 
@@ -50,12 +52,29 @@
             
         }
 
-        img:hover{
-          transform: scale(.9);
-            border: 1px solid rgb(67, 69, 235);
-            filter: brightness(.7);
-            box-shadow: none;
-        } 
+        
+img:hover{
+    border: 1px solid rgb(67, 69, 235);
+    box-shadow: none;
+    animation: pic 1s alternate linear infinite;
+    }
+
+@keyframes pic{
+    0%{
+
+        transform: scale(1);
+        filter: hue-rotate(0deg);
+    }
+    50%{ 
+        filter: hue-rotate(60deg); 
+    }
+    100%{
+
+        transform: scale(.9);
+        filter: hue-rotate(0deg); 
+    }
+}
+          
       
       body{
           animation: animate 1s ease-out;
