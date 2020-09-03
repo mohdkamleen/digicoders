@@ -7,8 +7,7 @@
     <meta name="Description" content=" In this Website Im trained with digicoders and its makeing for my all Projet, Assignment and about me and my training company....... ">
     
     <title>Task 8 | html </title>
-    <link rel="stylesheet" href="css/bootstraph.css">
-    <link rel="stylesheet" href="https://mohdkamleen.github.io/link/animate.css">
+    <link rel="stylesheet" href="css/bootstraph.css"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <style>
@@ -61,6 +60,10 @@
             border: 2px solid gray;
         }
 
+        .container{
+          max-width: 400px;
+        }
+
     </style>
 </head>
 <body class="animate__animated animate__zoomIn">
@@ -79,7 +82,7 @@
         </li>
 
         <li class="nav-item">
-            <a class="nav-link" href="index.html"> Home  </a>
+            <a class="nav-link" href="project.html"> Project's  </a>
         </li>
 
         <li class="nav-item">
@@ -92,11 +95,11 @@
    <div class="container-fluid" >
       <br> <h1>1. Design a calculator like this.</h1>  
 
-      <div class="form-group">
+      <div class="form-group container">
           <h3 class="text-center">calculator</h3> <br>
           <input onkeyup="check_num1()" placeholder="Enter first number maximum 5" class="form-control"> <br>
           <input onkeyup="check_num2()" placeholder="Enter second number maximum 4" class="form-control"> <br>
-          <input type="button" onclick="result()" value="Result" class="d-block m-auto" id="result_button"> <br>
+          <input type="button" onclick="result()" disabled value="Result" class="d-block m-auto" id="result_button"> <br>
       </div>
 
 

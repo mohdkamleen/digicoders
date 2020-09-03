@@ -398,7 +398,7 @@ strong {
     justify-content: center;
     align-items: center;
     margin: 10px 2px;
-    transition: .2s all linear;
+    transition: .2s .2s all linear;
     padding: 10px;
     color: rgb(67, 69, 235); 
     -webkit-text-stroke: 0px;
