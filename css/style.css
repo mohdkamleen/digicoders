@@ -415,6 +415,7 @@ strong {
     background: radial-gradient(rgb(178, 184, 235),rgb(84, 87, 236));  
     z-index: -3;  
     transform: scale(0);
+    transform-origin: top right;
     transition: all .5s linear;
     border-radius: 50%;
     }
